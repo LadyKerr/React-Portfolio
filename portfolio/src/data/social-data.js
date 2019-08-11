@@ -4,19 +4,19 @@ const social = [
   {
     id: 1,
     account: "Twitter",
-    profileURL: "",
+    profileURL: "https://twitter.com/ItsladyKadie",
     icon: ""
   },
   {
     id: 2,
     account: "GitHub",
-    profileURL: "",
+    profileURL: "https://github.com/LadyKerr",
     icon: ""
   },
   {
     id: 3,
     account: "LinkedIn",
-    profileURL: "",
+    profileURL: "https://www.linkedin.com/in/kedashakerrbsw/",
     icon: ""
   }
 ];
