@@ -3,7 +3,7 @@
 const projects = [
   {
     id: 1,
-    title: "Project Hope - School in the Sky",
+    title: "Future Hope - School in the Sky",
     role: "Full-Stack Developer",
     technologies: "React, React-Router, Redux, NodeJs, ExpressJs, Firebase",
     description: "TBA TBA",

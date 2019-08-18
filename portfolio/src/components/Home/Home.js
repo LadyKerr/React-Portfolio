@@ -11,3 +11,8 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+//render top section that says hello with a photo here
+//render projects here
+//render contact here
+//render social icons here
