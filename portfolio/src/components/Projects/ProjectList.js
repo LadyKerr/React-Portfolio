@@ -1,17 +1,19 @@
 import React from "react";
-import Projects from "./Projects"
+import Projects from "./Projects";
+import projectData from "../../data/project-data";
 
 class ProjectList extends React.Component {
-    render() {
-        return (
-            <div>
-                <h1>Hello from ProjectList</h1>
-                <Projects />
-            </div>
-        )
-    }
+  render() {
+    const projects = projectData;
+    return (
+      <div>
+        <h1>Projects</h1>
+        {projects.map(project => (
+          <Projects projects={project} key={project.id} />
+        ))}
+      </div>
+    );
+  }
 }
 
 export default ProjectList;
-
-//map over project list in data/projects here and render props to Projects
