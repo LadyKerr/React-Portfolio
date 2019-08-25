@@ -1,4 +1,5 @@
 //import project images here
+import luncherImage from "../assets/luncher-img.png";
 
 const projects = [
   {
@@ -7,6 +8,7 @@ const projects = [
     role: "Full-Stack Developer",
     technologies: "React, React-Router, Redux, NodeJs, ExpressJs, Firebase",
     description: "TBA TBA",
+    projectImage: "",
     projectURL: "",
     githubRepo: ""
   },
@@ -16,6 +18,7 @@ const projects = [
     role: "Back-End Architect",
     technologies: "NodeJs, ExpressJs, Knex, Jest, BcryptJS, SQLite3",
     description: "TBA TBA",
+    projectImage: "",
     projectURL: "",
     githubRepo: ""
   },
@@ -26,6 +29,7 @@ const projects = [
     technologies: "React, React-Router, Redux, Axios, Material-UI",
     description:
       "HairCare is a web application that connects hairstylists with potential clients.",
+    projectImage: "",
     projectURL: "",
     githubRepo: "https://github.com/haircare-bw/Front-End-Kerr"
   },
@@ -36,6 +40,7 @@ const projects = [
     technologies: "CSS, LESS, Semantic HTML, Javascript",
     description:
       "Luncher is a web application that allows schools to request funds from donors for their school lunch programs",
+    projectImage: luncherImage,
     projectURL: "https://ladykerr.github.io/Luncher-App/index.html",
     githubRepo: "https://github.com/LadyKerr/Luncher-App"
   }
