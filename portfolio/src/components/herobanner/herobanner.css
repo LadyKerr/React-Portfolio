@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Monoton|Stalemate&display=swap");
+
+.name {
+  font-family: "Stalemate", cursive;
+  margin: 0 auto;
+  font-weight: 580;
+  font-size: 10.5rem;
+  padding-top: 30px;
+}
+
+hr {
+  width: 500px;
+  color: #ffffff;
+  margin: 0 auto;
+}
